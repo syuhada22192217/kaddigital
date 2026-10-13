@@ -61,14 +61,7 @@ export const WEDDING_DATA = {
     brideSide: "Soft Pink / Bebas",
     groomSide: "Coklat / Bebas",
   },
-  initialAttendees: [
-    { id: "att-1", name: "Dato' Sri Zamani & Isteri", pax: 2, status: "attending", time: "2 jam lepas", side: "groom" },
-    { id: "att-2", name: "Cikgu Hafiz & Cikgu Salina", pax: 4, status: "attending", time: "5 jam lepas", side: "bride" },
-    { id: "att-3", name: "Dr. Aiman & Pasangan", pax: 2, status: "attending", time: "Semalam", side: "groom" },
-    { id: "att-4", name: "Farah Adila (Keluarga)", pax: 3, status: "attending", time: "Semalam", side: "bride" },
-    { id: "att-5", name: "Pak Teh Razak", pax: 2, status: "attending", time: "2 hari lepas", side: "groom" },
-    { id: "att-6", name: "Ustaz Hamdan", pax: 1, status: "declined", time: "3 hari lepas", side: "bride" },
-  ] as AttendeeRecord[],
+  initialAttendees: []
   contacts: [
     { name: "Bapa Pengantin Lelaki", relation: "Bapa Pengantin Lelaki", phone: "0129534254", role: "groom" },
     { name: "Ibu Pengantin Perempuan", relation: "Ibu Pengantin Perempuan", phone: "0139392745", role: "bride" },
