@@ -3,7 +3,7 @@ import { Users, CheckCircle2, HeartHandshake, UserCheck, UserX, Loader2 } from '
 import windowTetingkapBg from '../assets/images/tetingkap.jpg';
 
 // 1. GLOBAL URL VARIABLE
-export const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxIvFa_wjoA6Nto_yYk2-5od6JjEJ-smgOlmqKXg0nOf2zQ4f23xWn_haiQnCsvUQORmA/exec";
+export const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyyl9tj4CiQgiFzVu-Qu7Gw30gaN6czksbez9Ln8ddTHuVKC-vxTkcx1t97EnjBlcqLDg/exec";
 
 interface RsvpSectionProps {
   totalHadir: number;

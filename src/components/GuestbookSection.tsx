@@ -137,7 +137,7 @@ export const GuestbookSection: React.FC<GuestbookSectionProps> = ({
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Nama atau nama keluarga..."
-                className="w-full px-3 py-1.5 text-xs rounded-lg border border-stone-300 bg-white focus:border-[#8B0000] outline-none"
+                className="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 bg-white text-stone-900 placeholder:text-stone-400 font-medium focus:border-[#8B0000] focus:ring-1 focus:ring-[#8B0000] outline-none"
               />
             </div>
 
@@ -151,7 +151,7 @@ export const GuestbookSection: React.FC<GuestbookSectionProps> = ({
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder="Selamat pengantin baru Amar & Syuhada..."
-                className="w-full px-3 py-1.5 text-xs rounded-lg border border-stone-300 bg-white focus:border-[#8B0000] outline-none resize-none"
+                className="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 bg-white text-stone-900 placeholder:text-stone-400 font-medium focus:border-[#8B0000] focus:ring-1 focus:ring-[#8B0000] outline-none resize-none"
               />
             </div>
 
