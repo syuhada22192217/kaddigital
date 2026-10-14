@@ -58,15 +58,13 @@ export const GuestbookSection: React.FC<GuestbookSectionProps> = ({
         headers: {
           'Content-Type': 'text/plain;charset=utf-8',
         },
-        body: JSON.stringify(payload),
-      });
+        body: JSON.stringify({ ...payload, status: "" }),
     } catch (err) {
       console.warn("Direct wish submission fallback:", err);
       try {
         await fetch(GOOGLE_SCRIPT_URL, {
           method: 'POST',
-          body: JSON.stringify(payload),
-        });
+          body: JSON.stringify({ ...payload, status: "" }),
       } catch (postErr) {
         console.error("Wish POST failed:", postErr);
       }
